@@ -275,26 +275,6 @@
 					<skipTests>true</skipTests>
 				</configuration>
 			</plugin>
-
-			<plugin>
-				<groupId>com.sebastian-daschner</groupId>
-				<artifactId>jaxrs-analyzer-maven-plugin</artifactId>
-				<version>0.16</version>
-				<executions>
-					<execution>
-						<goals>
-							<goal>analyze-jaxrs</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<backend>swagger</backend>
-					<resourcesDir>cdi-crud/apidocs</resourcesDir>
-					<renderSwaggerTags>true</renderSwaggerTags>
-					<swaggerTagsPathOffset>0</swaggerTagsPathOffset>
-				</configuration>
-			</plugin>
-
 		</plugins>
 		<finalName>cdi-crud</finalName>
 	</build>

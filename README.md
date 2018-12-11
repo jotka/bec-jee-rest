@@ -1,35 +1,30 @@
-= Simple Java EE CDI Crud example.
+# Simple Java EE CDI Crud example.
 
-== How run it:
 
-The are many ways to run this application:
+##Building with maven:
 
-.Via maven
+    mvn clean package
 
-----
-mvn clean package
-----
-and deploy to a JavaEE server
+##deploy to a JavaEE server via wildfly-swarm
 
-.Via wildfly-swarm
 
-----
-mvn wildfly-swarm:run -Pswarm
+    mvn wildfly-swarm:run -Pswarm
 
 
 The application is available at http://localhost:8080/cdi-crud
 
-== Running tests:
+##Running tests:
 
-* Via maven:
-+
-----
-mvn clean test -Ptests -Pwildfly-managed
-----
-* *Or* via IDE: activate container profile in your IDE and Run CrudIt.java|CrudBdd.java|CrudRest|CrudAt as Junit test
+###with maven:
+
+    mvn clean test -Ptests -Pwildfly-managed
 
 
-== Technologies:
+###with an IDE:
+    activate container profile in your IDE and Run CrudIt.java|CrudBdd.java|CrudRest|CrudAt as Junit test
+
+
+#Technologies:
 
 * CDI
 * JSF
