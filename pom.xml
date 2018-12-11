@@ -508,12 +508,12 @@
 						</executions>
 						<configuration>
 							<excludes>
-								<exclude>com/cdi/crud/bean/*.class</exclude>
-								<exclude>com/cdi/crud/model/*.class</exclude>
-								<exclude>com/cdi/crud/infra/InitAppBean.class</exclude>
+								<exclude>dk/nykredit/car/CarBean.class</exclude>
+								<exclude>dk/nykredit/car/Car.class</exclude>
+								<exclude>dk/nykredit/infra/InitAppBean.class</exclude>
 								<!-- exclude JSF related classes -->
-								<exclude>com/cdi/crud/infra/exception/*.class</exclude>
-								<exclude>com/cdi/crud/infra/persistence/*.class</exclude>
+								<exclude>dk/nykredit/infra/exception/*.class</exclude>
+								<exclude>dk/nykredit/infra/persistence/*.class</exclude>
 
 							</excludes>
 						</configuration>

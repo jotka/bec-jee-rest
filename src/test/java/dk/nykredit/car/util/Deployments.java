@@ -21,7 +21,7 @@ public class Deployments {
      */
     public static WebArchive getBaseDeployment() {
         WebArchive war = ShrinkWrap.create(WebArchive.class);
-        war.addPackages(true, "com.nykredit.car");
+        war.addPackages(true, "dk.nykredit");
         war.deleteClass(InitAppBean.class);
         war.deletePackages(true,CrudIt.class.getPackage()).deletePackages(true,CrudAt.class.getPackage());
         //LIBS
