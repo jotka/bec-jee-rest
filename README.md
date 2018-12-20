@@ -5,11 +5,6 @@
 
     mvn clean package
 
-##deploy to a JavaEE server via wildfly-swarm
-
-
-    mvn wildfly-swarm:run -Pswarm
-
 
 The application is available at http://localhost:8080/cdi-crud
 
