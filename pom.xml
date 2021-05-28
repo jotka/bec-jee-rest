@@ -10,7 +10,7 @@
 
 	<properties>
 		<version.hibernate>5.1.8.Final</version.hibernate>
-		<version.deltaspike>1.8.0</version.deltaspike>
+		<version.deltaspike>1.9.5</version.deltaspike>
 		<arquillian.container>wildfly:8.2.0.Final:managed</arquillian.container>
 		<arquillian.browser>chrome</arquillian.browser>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -225,7 +225,7 @@
 	</dependencies>
 	<repositories>
 		<repository>
-			<snapshots />
+			<snapshots/>
 			<id>snapshots</id>
 			<name>libs-snapshot</name>
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
@@ -442,11 +442,11 @@
 									<attributes>
 										<linkcss>true</linkcss>
 										<linkattrs>true</linkattrs>
-										<sectnums />
+										<sectnums/>
 										<toc>right</toc>
 										<tocLevels>3</tocLevels>
 										<icons>font</icons>
-										<idprefix />
+										<idprefix/>
 										<sectanchors>true</sectanchors>
 									</attributes>
 								</configuration>
@@ -461,9 +461,9 @@
 									<backend>pdf</backend>
 									<sourceHighlighter>coderay</sourceHighlighter>
 									<attributes>
-										<pagenums />
-										<toc />
-										<idprefix />
+										<pagenums/>
+										<toc/>
+										<idprefix/>
 										<idseparator>-</idseparator>
 									</attributes>
 								</configuration>
